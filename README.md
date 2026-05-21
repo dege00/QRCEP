@@ -6,6 +6,6 @@ O sistema utiliza a API do para buscar automaticamente informações de localiza
 
 Além de ser um projeto de aprendizado em desenvolvimento web, o QRCEP também busca mostrar como soluções simples podem ajudar na organização, acessibilidade e modernização de serviços públicos.
 
-# *link:* https://dege00.github.io/pagina-simples/
+# *link:* https://dege00.github.io/QRCEP/
 
 ![exemplo](ex/exemplo.png)
