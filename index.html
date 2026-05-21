@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>QRCEP</title>
+
+<link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+
+  <div class="titulo">
+    <h1>QRCEP</h1>
+    <p class="subtitulo">
+      Digite o CEP e seu Nome para gerar o QRCode   
+    </p>
+
+    <div class="cep">
+      <input type="text" id="cep" placeholder="Digite o CEP" maxlength="8">
+      <button onclick="buscarCEP()">Buscar</button>
+    </div>
+
+    <div class="resultado" id="resultado">
+
+      <div class="info">
+        <p><strong>Rua:</strong> <span id="rua">-</span></p>
+        <p><strong>Bairro:</strong> <span id="bairro">-</span></p>
+        <p><strong>Cidade:</strong> <span id="cidade">-</span></p>
+        <p><strong>Estado:</strong> <span id="estado">-</span></p>
+      </div>
+
+      <div id="qrcode"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
